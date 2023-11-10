@@ -1,0 +1,491 @@
+fileFormatVersion: 2
+guid: 808cfe277e9049849919ab93e0c9c2c8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: AimForSleeve_L
+    100002: AimForSleeve_R
+    100004: Armature_Is2Clothes
+    100006: Chest_Is2Clothes
+    100008: Cord_L
+    100010: Cord_L2
+    100012: Cord_R
+    100014: Cord_R2
+    100016: Eri_L
+    100018: Eri_L2
+    100020: Eri_L3
+    100022: Eri_R
+    100024: Eri_R2
+    100026: Eri_R3
+    100028: Foot_L_Is2Clothes
+    100030: Foot_R_Is2Clothes
+    100032: Hand_DB_L
+    100034: Hand_DB_R
+    100036: Hand_L_Is2Clothes
+    100038: Hand_R_Is2Clothes
+    100040: Hips_Is2Clothes
+    100042: houkoutsuke
+    100044: houkoutsuke 1
+    100046: Is2_Clothes
+    100048: //RootNode
+    100050: LowerArm_L_Is2Clothes
+    100052: LowerArm_R_Is2Clothes
+    100054: LowerLeg_L_Is2Clothes
+    100056: LowerLeg_R_Is2Clothes
+    100058: RibbonBack_lower_L
+    100060: RibbonBack_lower_L2
+    100062: RibbonBack_lower_L3
+    100064: RibbonBack_lower_R
+    100066: RibbonBack_lower_R2
+    100068: RibbonBack_lower_R3
+    100070: RibbonBack_upper_L
+    100072: RibbonBack_upper_L2
+    100074: RibbonBack_upper_L3
+    100076: RibbonBack_upper_R
+    100078: RibbonBack_upper_R2
+    100080: RibbonBack_upper_R3
+    100082: RibbonChest_L
+    100084: RibbonChest_L2
+    100086: RibbonChest_L3
+    100088: RibbonSleeve_L
+    100090: RibbonSleeve_L2
+    100092: RibbonSleeve_R
+    100094: RibbonSleeve_R2
+    100096: RibbonWaki_L
+    100098: RibbonWaki_L2
+    100100: RibbonWaki_R
+    100102: RibbonWaki_R2
+    100104: Shoulder_L_Is2Clothes
+    100106: Shoulder_R_Is2Clothes
+    100108: skirt_Back
+    100110: skirt_Back2
+    100112: skirt_Back2_L
+    100114: skirt_Back2_L2
+    100116: skirt_Back2_L3
+    100118: skirt_Back2_R
+    100120: skirt_Back2_R2
+    100122: skirt_Back2_R3
+    100124: skirt_Back3
+    100126: skirt_Back3_L
+    100128: skirt_Back3_L2
+    100130: skirt_Back3_L3
+    100132: skirt_Back3_R
+    100134: skirt_Back3_R2
+    100136: skirt_Back3_R3
+    100138: skirt_F2_L2
+    100140: skirt_F2_L3
+    100142: skirt_F2_R2
+    100144: skirt_F2_R3
+    100146: skirt_F3_L2
+    100148: skirt_F3_L3
+    100150: skirt_F3_R2
+    100152: skirt_F3_R3
+    100154: skirt_F_L2
+    100156: skirt_F_L3
+    100158: skirt_F_R2
+    100160: skirt_F_R3
+    100162: skirt_front2_L
+    100164: skirt_front2_R
+    100166: skirt_front_L
+    100168: skirt_front_R
+    100170: skirt_side_L
+    100172: skirt_side_R
+    100174: Sleeve_DB
+    100176: Sleeve_DB 1
+    100178: Sleeve_DB2
+    100180: Sleeve_DB2 1
+    100182: Sleeve_DB3
+    100184: Sleeve_DB3 1
+    100186: Sleeve_L
+    100188: Sleeve_L2
+    100190: Sleeve_R
+    100192: Sleeve_R2
+    100194: Spine_Is2Clothes
+    100196: Toes_L_Is2Clothes
+    100198: Toes_R_Is2Clothes
+    100200: UpperArm_L_Is2Clothes
+    100202: UpperArm_R_Is2Clothes
+    100204: UpperArmDBC_L
+    100206: UpperArmDBC_L2
+    100208: UpperArmDBC_R
+    100210: UpperArmDBC_R2
+    100212: UpperLeg_L_Is2Clothes
+    100214: UpperLeg_R_Is2Clothes
+    100216: UpperLegDMC_L
+    100218: UpperLegDMC_R
+    100220: AimForCord_L
+    100222: AimForCord_R
+    100224: Hand_DB_R 1
+    100226: Hand_R_Is2Clothes 1
+    100228: houkou
+    100230: houkou 1
+    100232: LowerArm_R_Is2Clothes 1
+    100234: Shoulder_R_Is2Clothes1
+    100236: UpperArm_aim_L
+    100238: UpperArm_aim_L2
+    100240: UpperArm_aim_R
+    100242: UpperArm_aim_R2
+    100244: UpperArm_R_Is2Clothes 1
+    100246: UpperLeg_DMC_L
+    100248: UpperLeg_DMC_L2
+    100250: UpperLeg_DMC_R
+    100252: UpperLeg_DMC_R2
+    100254: Hand_DB_L2
+    100256: Hand_DB_R2
+    100258: Sleeve_DB_L
+    100260: Sleeve_DB_L2
+    100262: Sleeve_DB_L3
+    100264: Sleeve_DB_R
+    100266: Sleeve_DB_R2
+    100268: Sleeve_DB_R3
+    100270: Leg_aim_L
+    100272: Leg_aim_L2
+    100274: Leg_aim_R
+    100276: Leg_aim_R2
+    100278: RibbonChest
+    100280: RibbonChest_2
+    100282: RibbonChest_3
+    100284: Wrist_L
+    100286: Wrist_L2
+    100288: Wrist_R
+    100290: Wrist_R2
+    100292: RibbonBack
+    100294: RibbonBack_lower_L4
+    100296: RibbonBack_lower_R4
+    100298: skirt_front_1
+    100300: skirt_front_2
+    100302: skirt_front_3
+    100304: Is2_Clothes 1
+    100306: Is2Clothes_Armature
+    100308: Is2Clothes_Chest
+    100310: Is2Clothes_Foot_L
+    100312: Is2Clothes_Foot_R
+    100314: Is2Clothes_Hips
+    100316: Is2Clothes_LowerArm_L
+    100318: Is2Clothes_LowerArm_R
+    100320: Is2Clothes_LowerLeg_L
+    100322: Is2Clothes_LowerLeg_R
+    100324: Is2Clothes_Shoulder_L
+    100326: Is2Clothes_Spine
+    100328: Is2Clothes_Toes_L
+    100330: Is2Clothes_Toes_R
+    100332: Is2Clothes_UpperArm_L
+    100334: Is2Clothes_UpperArm_R
+    100336: Is2Clothes_UpperLeg_L
+    100338: Is2Clothes_UpperLeg_R
+    100340: Is2Clothes_Shoulder_R
+    100342: UpperArm_sub_L
+    100344: UpperArm_sub_L2
+    100346: UpperArm_sub_R
+    100348: UpperArm_sub_R2
+    100350: OnePiece
+    100352: Pants
+    100354: Shoes_L
+    100356: Shoes_R
+    100358: Wrist_L 1
+    100360: Wrist_R 1
+    400000: AimForSleeve_L
+    400002: AimForSleeve_R
+    400004: Armature_Is2Clothes
+    400006: Chest_Is2Clothes
+    400008: Cord_L
+    400010: Cord_L2
+    400012: Cord_R
+    400014: Cord_R2
+    400016: Eri_L
+    400018: Eri_L2
+    400020: Eri_L3
+    400022: Eri_R
+    400024: Eri_R2
+    400026: Eri_R3
+    400028: Foot_L_Is2Clothes
+    400030: Foot_R_Is2Clothes
+    400032: Hand_DB_L
+    400034: Hand_DB_R
+    400036: Hand_L_Is2Clothes
+    400038: Hand_R_Is2Clothes
+    400040: Hips_Is2Clothes
+    400042: houkoutsuke
+    400044: houkoutsuke 1
+    400046: //RootNode
+    400048: Is2_Clothes
+    400050: LowerArm_L_Is2Clothes
+    400052: LowerArm_R_Is2Clothes
+    400054: LowerLeg_L_Is2Clothes
+    400056: LowerLeg_R_Is2Clothes
+    400058: RibbonBack_lower_L
+    400060: RibbonBack_lower_L2
+    400062: RibbonBack_lower_L3
+    400064: RibbonBack_lower_R
+    400066: RibbonBack_lower_R2
+    400068: RibbonBack_lower_R3
+    400070: RibbonBack_upper_L
+    400072: RibbonBack_upper_L2
+    400074: RibbonBack_upper_L3
+    400076: RibbonBack_upper_R
+    400078: RibbonBack_upper_R2
+    400080: RibbonBack_upper_R3
+    400082: RibbonChest_L
+    400084: RibbonChest_L2
+    400086: RibbonChest_L3
+    400088: RibbonSleeve_L
+    400090: RibbonSleeve_L2
+    400092: RibbonSleeve_R
+    400094: RibbonSleeve_R2
+    400096: RibbonWaki_L
+    400098: RibbonWaki_L2
+    400100: RibbonWaki_R
+    400102: RibbonWaki_R2
+    400104: Shoulder_L_Is2Clothes
+    400106: Shoulder_R_Is2Clothes
+    400108: skirt_Back
+    400110: skirt_Back2
+    400112: skirt_Back2_L
+    400114: skirt_Back2_L2
+    400116: skirt_Back2_L3
+    400118: skirt_Back2_R
+    400120: skirt_Back2_R2
+    400122: skirt_Back2_R3
+    400124: skirt_Back3
+    400126: skirt_Back3_L
+    400128: skirt_Back3_L2
+    400130: skirt_Back3_L3
+    400132: skirt_Back3_R
+    400134: skirt_Back3_R2
+    400136: skirt_Back3_R3
+    400138: skirt_F2_L2
+    400140: skirt_F2_L3
+    400142: skirt_F2_R2
+    400144: skirt_F2_R3
+    400146: skirt_F3_L2
+    400148: skirt_F3_L3
+    400150: skirt_F3_R2
+    400152: skirt_F3_R3
+    400154: skirt_F_L2
+    400156: skirt_F_L3
+    400158: skirt_F_R2
+    400160: skirt_F_R3
+    400162: skirt_front2_L
+    400164: skirt_front2_R
+    400166: skirt_front_L
+    400168: skirt_front_R
+    400170: skirt_side_L
+    400172: skirt_side_R
+    400174: Sleeve_DB
+    400176: Sleeve_DB 1
+    400178: Sleeve_DB2
+    400180: Sleeve_DB2 1
+    400182: Sleeve_DB3
+    400184: Sleeve_DB3 1
+    400186: Sleeve_L
+    400188: Sleeve_L2
+    400190: Sleeve_R
+    400192: Sleeve_R2
+    400194: Spine_Is2Clothes
+    400196: Toes_L_Is2Clothes
+    400198: Toes_R_Is2Clothes
+    400200: UpperArm_L_Is2Clothes
+    400202: UpperArm_R_Is2Clothes
+    400204: UpperArmDBC_L
+    400206: UpperArmDBC_L2
+    400208: UpperArmDBC_R
+    400210: UpperArmDBC_R2
+    400212: UpperLeg_L_Is2Clothes
+    400214: UpperLeg_R_Is2Clothes
+    400216: UpperLegDMC_L
+    400218: UpperLegDMC_R
+    400220: AimForCord_L
+    400222: AimForCord_R
+    400224: Hand_DB_R 1
+    400226: Hand_R_Is2Clothes 1
+    400228: houkou
+    400230: houkou 1
+    400232: LowerArm_R_Is2Clothes 1
+    400234: Shoulder_R_Is2Clothes1
+    400236: UpperArm_aim_L
+    400238: UpperArm_aim_L2
+    400240: UpperArm_aim_R
+    400242: UpperArm_aim_R2
+    400244: UpperArm_R_Is2Clothes 1
+    400246: UpperLeg_DMC_L
+    400248: UpperLeg_DMC_L2
+    400250: UpperLeg_DMC_R
+    400252: UpperLeg_DMC_R2
+    400254: Hand_DB_L2
+    400256: Hand_DB_R2
+    400258: Sleeve_DB_L
+    400260: Sleeve_DB_L2
+    400262: Sleeve_DB_L3
+    400264: Sleeve_DB_R
+    400266: Sleeve_DB_R2
+    400268: Sleeve_DB_R3
+    400270: Leg_aim_L
+    400272: Leg_aim_L2
+    400274: Leg_aim_R
+    400276: Leg_aim_R2
+    400278: RibbonChest
+    400280: RibbonChest_2
+    400282: RibbonChest_3
+    400284: Wrist_L
+    400286: Wrist_L2
+    400288: Wrist_R
+    400290: Wrist_R2
+    400292: RibbonBack
+    400294: RibbonBack_lower_L4
+    400296: RibbonBack_lower_R4
+    400298: skirt_front_1
+    400300: skirt_front_2
+    400302: skirt_front_3
+    400304: Is2_Clothes 1
+    400306: Is2Clothes_Armature
+    400308: Is2Clothes_Chest
+    400310: Is2Clothes_Foot_L
+    400312: Is2Clothes_Foot_R
+    400314: Is2Clothes_Hips
+    400316: Is2Clothes_LowerArm_L
+    400318: Is2Clothes_LowerArm_R
+    400320: Is2Clothes_LowerLeg_L
+    400322: Is2Clothes_LowerLeg_R
+    400324: Is2Clothes_Shoulder_L
+    400326: Is2Clothes_Spine
+    400328: Is2Clothes_Toes_L
+    400330: Is2Clothes_Toes_R
+    400332: Is2Clothes_UpperArm_L
+    400334: Is2Clothes_UpperArm_R
+    400336: Is2Clothes_UpperLeg_L
+    400338: Is2Clothes_UpperLeg_R
+    400340: Is2Clothes_Shoulder_R
+    400342: UpperArm_sub_L
+    400344: UpperArm_sub_L2
+    400346: UpperArm_sub_R
+    400348: UpperArm_sub_R2
+    400350: OnePiece
+    400352: Pants
+    400354: Shoes_L
+    400356: Shoes_R
+    400358: Wrist_L 1
+    400360: Wrist_R 1
+    2100000: Is2_Clothes_mat
+    2100002: Skyblue
+    2100004: Is2_ClothesTrance_mat
+    4300000: Is2_Clothes
+    4300002: OnePiece
+    4300004: Shoes_L
+    4300006: Shoes_R
+    4300008: Sleeve_L
+    4300010: Sleeve_R
+    4300012: Wrist_L
+    4300014: Wrist_R
+    4300016: Pants
+    9500000: //RootNode
+    13700000: Is2_Clothes
+    13700002: Is2_Clothes 1
+    13700004: OnePiece
+    13700006: Pants
+    13700008: Shoes_L
+    13700010: Shoes_R
+    13700012: Sleeve_L
+    13700014: Sleeve_R
+    13700016: Wrist_L
+    13700018: Wrist_R
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Is2_ClothesTrance_mat
+    second: {fileID: 2100000, guid: 99e5914020a47ae4f97bc8bb831dbaea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Is2_Clothes_mat
+    second: {fileID: 2100000, guid: d1d43fc37fae8f54b86c3910940059a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skyblue
+    second: {fileID: 2100000, guid: 99e5914020a47ae4f97bc8bb831dbaea, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,17 @@
+To use an orifice, simply drag it into the scene and attach it to your avatar! The ring allows the penetrator to pass through, and the hole makes it dissapear. Delete the gameobject named "Delete me" when you are done.
+
+To add orifice deformations to you own model:
+
+Add shape keys to your model named Orifice and optionally Orifice2, Orifice3, and Orifice4.
+
+Add an orifice shader to your model.
+
+Use the tool under Tools > Raliv > Orifice Setup.
+
+Add your model to the tool, and click Generate Texture.
+
+Set the depths in shader to trigger your shapes at your desired penetration depths (use an included penetrator prefab to test).
+
+Set the durations to your desired smoothness of shape triggering.
+
+If your penetrator is custom, run the Penetrator Setup on it and fix its length.

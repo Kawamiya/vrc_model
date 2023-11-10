@@ -1,0 +1,53 @@
+To set up a custom penetrator:
+
+Run the Penetrator Setup Tool at Tools > Raliv > Create Penetrator.
+
+Drag your Custom Penetrator Model from the scene into the "My Model" slot.
+
+Drag the White Base dot to the center of the base of the model (Everything in front of that dot will move during penetration).
+
+Drag the Blue Tip dot to the center of the tip of your model.
+
+Press "Generate Custom Model!".
+
+
+Manual Model Setup:
+
+Remove all bones and make sure the mesh is not a child component of an armature or another object in blender.
+
+Position your mesh in blender with the penetrator's tip facing toward the positive Z axis (This is straight up to the sky). It's origin should be in the center of the base. Everything above the origin will deform, and everything below will not.
+
+Apply all transforms with Object > Apply > All Transforms.
+
+Export to Unity. and Place it into the prefab with the default penetrator.
+
+Set its position and rotation to 0,0,0 and 0,0,0. (It should now point the same direction as the default penetrator)
+
+hide or delete the default penetrator.
+
+Set the scale to 1, 1, 1.
+
+It might be the wrong scale now! Simply select the asset and adjust it's Scale Factor until it is back to an appropriate size (You might need 0.01 or 100).
+
+Apply the Penetrator material to it.
+
+Adjust the length slider to the length of your penetrator (I suggest turning it to zero, and slowly raising it until the entire penetrator shows).
+
+Adjust the light intensity to the same length value.
+
+When Modeling your own penetrator, it needs to be quite straight. Curvature can be added with the curvature sliders.
+
+
+COMMON ISSUES
+Scale is not 1, 1, 1:
+Set the scale to 1,1,1 and adjust it to your liking with the asset's Scale Factor option.
+
+It deforms really weird:
+Ensure the position and rotation of your model are 0,0,0 and 0,0,0.
+
+It is pointing the wrong direction:
+Go back to blender and ensure it is not bone animated or in an object hierarchy, and that the tip points toward positive Z (the sky)
+
+A whole lot of crazy stuff is happening:
+Maybe you updated from an old version and need to delete the Dynamic Penetration System folder and install the new one fresh.
+Maybe something I did not anticipate is happening, Send me a message and I will do my best to help!

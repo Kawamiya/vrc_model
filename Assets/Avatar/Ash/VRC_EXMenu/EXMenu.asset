@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: EXMenu
+  m_EditorClassIdentifier: 
+  controls:
+  - name: Change Front Hair
+    icon: {fileID: 2800000, guid: b1d998b2de325f34b8c550dbee10218e, type: 3}
+    type: 102
+    parameter:
+      name: ChangeFrontHair
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Change Kemomimi
+    icon: {fileID: 2800000, guid: bc6f0f10323fa0244bd64b851f965ae1, type: 3}
+    type: 102
+    parameter:
+      name: ChangeKemomimi
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: leggings ON/OFF
+    icon: {fileID: 2800000, guid: 552f26f3a3463814f85cec394792de09, type: 3}
+    type: 102
+    parameter:
+      name: leggingsONOFF
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Kemomimi ON/OFF
+    icon: {fileID: 2800000, guid: 51e6cc563013ef94782527051fc92316, type: 3}
+    type: 102
+    parameter:
+      name: HideKemomimi
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Cap ON/OFF
+    icon: {fileID: 2800000, guid: db8d576108a19e841a57485760cd5a4d, type: 3}
+    type: 102
+    parameter:
+      name: HideCap
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
