@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Toto_UsagisanMizugi_Sub
+  m_EditorClassIdentifier: 
+  controls:
+  - name: "\u30D1\u30FC\u30AB\u30FCON"
+    icon: {fileID: 2800000, guid: b3f242c1bf248fb4ba7a55aa932b39d5, type: 3}
+    type: 102
+    parameter:
+      name: okigae_Premium
+    value: 4
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u30D1\u30FC\u30AB\u30FCOFF"
+    icon: {fileID: 2800000, guid: d5f3c4114b33fbe43924602d3fe5398f, type: 3}
+    type: 102
+    parameter:
+      name: okigae_Premium
+    value: 5
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

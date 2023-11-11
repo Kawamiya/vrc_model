@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Chito_menu
+  m_EditorClassIdentifier: 
+  controls:
+  - name: okigae
+    icon: {fileID: 2800000, guid: d019ceb876e4c6a49bd2f8d60337089f, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: a07cc7b898b430f4e80b6f61de2a8ea3, type: 2}
+    subParameters: []
+    labels: []
+  - name: "okigae\u3000on/off"
+    icon: {fileID: 2800000, guid: 0a5c2f04366279841b7f2391910d4ad7, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 21c4f39cd2cfad7479e7bbfe8486689d, type: 2}
+    subParameters: []
+    labels: []
+  - name: manpu
+    icon: {fileID: 2800000, guid: 48b8c38ec502bcd45a290ea199303394, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 952b11e66f6150740aebb60735c3b09a, type: 2}
+    subParameters: []
+    labels: []

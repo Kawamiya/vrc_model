@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Toto_WearMenuPremium
+  m_EditorClassIdentifier: 
+  controls:
+  - name: "\u30A2\u30A4\u30C9\u30EBTypeD"
+    icon: {fileID: 2800000, guid: 946fab883a9c5d842b69887a72017a71, type: 3}
+    type: 102
+    parameter:
+      name: okigae_Premium
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u63A8\u3057\u30B3\u30FC\u30C7"
+    icon: {fileID: 2800000, guid: 6a9ab371eaed70245adc7fd6cae607a3, type: 3}
+    type: 102
+    parameter:
+      name: okigae_Premium
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u30B9\u30A4\u30FC\u30C8\u30E1\u30A4\u30C9"
+    icon: {fileID: 2800000, guid: 1c02afa842007f541ac4485076b8bf78, type: 3}
+    type: 102
+    parameter:
+      name: okigae_Premium
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u3046\u3055\u304E\u3055\u3093\u6C34\u7740"
+    icon: {fileID: 2800000, guid: b3f242c1bf248fb4ba7a55aa932b39d5, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 05983967a8059354ca8d096260debb1b, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u3046\u3055\u304E\u3055\u3093\u30EB\u30FC\u30E0\u30A6\u30A7\u30A2"
+    icon: {fileID: 2800000, guid: 4f0f0c520d4cf2f468af409be769c050, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 31dbad0269b847d41918ad1b6307f7fc, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u3046\u3055\u304E\u3055\u3093\u51AC\u30B3\u30FC\u30C7"
+    icon: {fileID: 2800000, guid: aac284f980a5fd545a741b6b52216c7e, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 8d6a2490ac3884f4898c23d84b4ba889, type: 2}
+    subParameters: []
+    labels: []
