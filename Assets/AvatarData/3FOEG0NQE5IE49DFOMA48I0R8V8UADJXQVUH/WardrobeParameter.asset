@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43a7adfe888b04e44bf864ed393cb838, type: 3}
+  m_Name: WardrobeParameter
+  m_EditorClassIdentifier: 
+  defaultClothIndex: 2
+  clothList:
+  - name: "\u8863\u670D1"
+    type: "\u5934\u53D1"
+    menuImage: {fileID: 0}
+    showPaths:
+    - hair/Karin_hair
+    hidePaths: []
+  - name: "\u8863\u670D2"
+    type: "\u5934\u53D1"
+    menuImage: {fileID: 0}
+    showPaths:
+    - hair/IS_hair
+    hidePaths: []
+  - name: "\u8033\u67351"
+    type: "\u8033\u6735"
+    menuImage: {fileID: 0}
+    showPaths:
+    - ear/Karin_ear
+    hidePaths: []
+  - name: "\u8033\u67352"
+    type: "\u8033\u6735"
+    menuImage: {fileID: 0}
+    showPaths:
+    - ear/Yawl_ear
+    hidePaths: []
+  ornamentList: []
