@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: WHIP
+  m_EditorClassIdentifier: 
+  controls:
+  - name: whip on/off
+    icon: {fileID: 2800000, guid: e3c16e25c05dd0949a2d1a321b602774, type: 3}
+    type: 102
+    parameter:
+      name: whip
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: rolling on/off
+    icon: {fileID: 2800000, guid: 48a594a0f0cc89548b97376cadab1c6f, type: 3}
+    type: 102
+    parameter:
+      name: whip_roll
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: target on/off
+    icon: {fileID: 2800000, guid: 7c52956d1301b7f4a8d812e7746b150e, type: 3}
+    type: 102
+    parameter:
+      name: target_on
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: target_fix
+    icon: {fileID: 2800000, guid: 6c8623d4239602c4d82a6455947f7372, type: 3}
+    type: 102
+    parameter:
+      name: target_world
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: sound on/off
+    icon: {fileID: 2800000, guid: 7052247af0ec78c45a569e289dcbdc3e, type: 3}
+    type: 102
+    parameter:
+      name: sound_on
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: flash on/off
+    icon: {fileID: 2800000, guid: 211cdd4ed93efb6458435c422cedb3e6, type: 3}
+    type: 102
+    parameter:
+      name: flash_on
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
