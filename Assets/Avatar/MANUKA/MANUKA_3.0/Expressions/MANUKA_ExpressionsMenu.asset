@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: MANUKA_ExpressionsMenu
+  m_EditorClassIdentifier: 
+  controls:
+  - name: MANUKA_costume
+    icon: {fileID: 2800000, guid: 939d927c6711c88459f94a701238353c, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: d00759b9ee71e674dbd677e903ef8e59, type: 2}
+    subParameters: []
+    labels: []
+  - name: MANUKA_option
+    icon: {fileID: 2800000, guid: bddd44a4f8c341244b137cbee9af84ec, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 4e5095dad4be73642882708d5a199d93, type: 2}
+    subParameters: []
+    labels: []
+  - name: MANUKA_face
+    icon: {fileID: 2800000, guid: c861a82dee44d7544aa172a5ce8e0c42, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: c59c10deba87ebd41a5b5724f2351599, type: 2}
+    subParameters: []
+    labels: []

@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1506855854, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Param_CC2
+  m_EditorClassIdentifier: 
+  parameters:
+  - name: CC2/Cl/PlOb
+    valueType: 0
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: CC2/Cl/MonitorSize
+    valueType: 1
+    saved: 0
+    defaultValue: 0.5
+    networkSynced: 0
+  - name: CC2/Map/Active
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 0
+  - name: CC2/Map/Depth
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+    networkSynced: 0
+  - name: CC2/Map/Height
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+    networkSynced: 0
+  - name: CC2/Map/Position
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+    networkSynced: 0
+  - name: CC2/Map/Size
+    valueType: 1
+    saved: 1
+    defaultValue: 0.3
+    networkSynced: 0
+  - name: CC2/Map/TeleportPinR
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: CC2/Map/TeleportPinB
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: CC2/Map/TeleportPinY
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: CC2/Teleport/Active
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: CC2/Teleport/A1
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: CC2/Teleport/A2
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: CC2/Teleport/ToPinR
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: CC2/Teleport/ToPinB
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: CC2/Teleport/ToPinY
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: CC2/Light/Spot
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: CC2/Light/Point
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: CC2/Light/IsLocal
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: CC2/Light/Intensity
+    valueType: 1
+    saved: 1
+    defaultValue: 0.3
+    networkSynced: 1
+  - name: CC2/Colider/Speed
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+    networkSynced: 0
+  - name: CC2/Colider/Active
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: CC2/Locomotion/ChangeNow
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: CC2/Locomotion/HeightChange
+    valueType: 1
+    saved: 1
+    defaultValue: 0.15
+    networkSynced: 0
+  - name: CC2/Locomotion/Pose
+    valueType: 0
+    saved: 1
+    defaultValue: 0
+    networkSynced: 0
+  - name: CC2/Locomotion/Freeze
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 0
+  - name: CC2/Locomotion/Load
+    valueType: 1
+    saved: 0
+    defaultValue: 1
+    networkSynced: 0
+  - name: CC2/Locomotion/SitChangeMode
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 0
+  - name: CC2/Marker/Active
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: CC2/Marker/Trail
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: CC2/Marker/TrailDraw
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: CC2/Marker/Pen
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: CC2/Marker/PenSelect
+    valueType: 2
+    saved: 0
+    defaultValue: 1
+    networkSynced: 1
+  - name: CC2/Marker/EraserSelect
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: CC2/SitPoint/ActiveConstraint
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: CC2/SitPoint/FixedConstraint
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: CC2/Marker/PenColor
+    valueType: 1
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: CC2/Cl/NoBack
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
+  - name: CC2/Locomotion/SitPose
+    valueType: 0
+    saved: 1
+    defaultValue: 0
+    networkSynced: 0
+  - name: CC2/Colider/Fast
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 0
