@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: "\u5C0F\u73A9\u610F"
+  m_EditorClassIdentifier: 
+  controls:
+  - name: "\u773C\u955C"
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: "\u773C\u955C"
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: PlayerTracker
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: d26c8ed3f4c52ac42be7ee05d0ca2e76, type: 2}
+    subParameters: []
+    labels: []
+  - name: "TheFatKidsMon\u63D2\u4EF6"
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 4b789a5084cfb064b96aa528d614bcad, type: 2}
+    subParameters: []
+    labels: []
